@@ -132,3 +132,59 @@ h3 {
     color: #00000076;
     margin: 0 auto;
 }
+
+/* Review Section */
+.reviews-section {
+    text-align: center;
+    margin: 50px auto;
+    max-width: 1140px;
+    height: 50px;
+    padding: 50px 0;
+}
+.reviews{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
+h1{
+    font-weight: bold ;
+    font-size: 42px;
+}
+.review-card {
+  background-color: #FFFFFF;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  padding: 24px ;
+  height: 200px;
+  text-align: left;
+}
+.review-card h2 {
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    font-family: "Raleway", sans-serif;
+  
+}
+.stars {
+  color: #ffc107;
+  margin-bottom: 10px;
+}
+.avatar{
+    border-radius: 50%;
+}
+.review-footer {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;}
+
+.reviewer-info {
+    margin-left: 15px;
+    /* margin-top: 10px;    */
+}
+.reviewer-info p {
+  font-size: 16px;
+  color: #999;
+  margin: 5px 0 0;
+}
