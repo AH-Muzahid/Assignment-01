@@ -1,8 +1,8 @@
 .btn {
     font-family: "Raleway";
     background: #4E47FF;
-    color: #fff;
-    padding: 12px 30px;
+    color: #FFFFFF;
+    padding: 12px 36px;
     border: none;
     border-radius: 8px;
     font-size: 16px;
@@ -10,18 +10,25 @@
     cursor: pointer;
     margin-top: 10px;
     transition: background-color 0.3s ease;
-    
 }
 
+.btn:hover {
+    background-color: #3b3ae6;
+}
+body {
+    margin: 0 auto;
+    font-family: 'Raleway', sans-serif;
+    background-color: #F5F8FF;
+    max-width: 1440px;
+}
 
-
+/* Style for banner */
 
 header {
     background-image: url(images/Hero-bg.png);
-    background-size: cover;
+    /* background-size: cover; */
     background-position: center;
-    width: 1440px height: 698px;
-
+    width: 1440px; height: 698px;
 
 }
 
@@ -30,8 +37,9 @@ header {
     justify-content: space-between;
     align-items: center;
     box-sizing: border-box;
-    padding: 34px 64px 0 110px;
+    padding: 50px  150px;
 }
+
 .logo {
     font-family: 'Inter', sans-serif;
     font-size: 34px;
@@ -39,7 +47,8 @@ header {
     color: #4E47FF;
 }
 
-.hero-title  {
+
+.hero-title {
     font-family: "Raleway", sans-serif;
     font-size: 48px;
     font-weight: 700;
@@ -48,10 +57,40 @@ header {
 
 }
 
-.hero{
+.hero {
     text-align: center;
     margin-bottom: 200px;
 }
-.cta{
+
+.cta {
     margin-bottom: 158px;
+}
+
+/* Style for Action  */
+.action {
+    display: flex;
+    gap : 220px;
+    justify-content: space-around;
+    align-items: center;
+    padding: 115px 160px 115px 0 ;
+    max-width: 100%;
+     
+}
+.action-title {
+    font-family: "Raleway", sans-serif;
+    font-size: 42px;
+    font-weight: bold;
+     
+}
+.action-text {
+    font-family: "Raleway", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    color: #25243272;
+    margin: 23px 0;
+}
+.action-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 30px;
 }
