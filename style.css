@@ -13,7 +13,8 @@
 }
 
 .btn:hover {
-    background-color: #3b3ae6;
+    background-color: #d6aa27;
+    animation: 2s ease-in-out 0.5s;
 }
 body {
     margin: 0 auto;
@@ -40,13 +41,16 @@ header {
     padding: 50px  150px;
 }
 
-.logo {
+.logo a {
+    text-decoration: none;
     font-family: 'Inter', sans-serif;
     font-size: 34px;
     font-weight: 800;
     color: #4E47FF;
 }
-
+.logo a span {
+    color: #d6aa27;
+}
 
 .hero-title {
     font-family: "Raleway", sans-serif;
@@ -62,9 +66,7 @@ header {
     margin-bottom: 200px;
 }
 
-.cta {
-    /* margin-bottom: 150px; */
-}
+
 
 /* Style for Action  */
 .action {
@@ -104,6 +106,7 @@ header {
     margin: 50px auto;
     background-color: #4d47ff0f;
     border-radius: 20px;
+    /* padding: 50px 0; */
 }
 .users{
     display: flex;
@@ -136,11 +139,11 @@ h3 {
 /* Review Section */
 .reviews-section {
     text-align: center;
-    margin: 50px auto;
+    margin: 150px auto;
     max-width: 1140px;
     height: 50px;
-    padding: 50px auto;
-    padding-bottom: 400px;
+    padding-bottom: 200px;
+
 }
 .reviews{
     display: flex;
@@ -158,7 +161,7 @@ h1{
   border-radius: 12px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
   padding: 24px ;
-  height: 200px;
+  height: auto;
   text-align: left;;
 }
 .review-card h2 {
@@ -205,20 +208,19 @@ h1{
 .touch-title {
     font-size: 97px;
     font-weight: 700;
-    font-family: "Raleway", sans-serif;
-    margin-bottom: 20px;
+   
 }
 input[type="text"],
 input[type="email"],
 textarea  {
+    background-color: #FFFFFF;
  width: 500px;
-    height: 70px;
-    /* padding: 10px; */
-    border: 1px solid #ccc;
+    height: 50px;
+    border: 1px solid #d6ddff83;
     border-radius: 10px;
     font-size:16px;
     font-family: "Raleway", sans-serif;
-    /* margin-bottom: 20px; */
+    padding: 20px;
 }
 textarea {
     height: 150px;
@@ -232,5 +234,52 @@ textarea {
     .submit-btn {
     width: 100%;
     height: 70px;
-
+    }
     /* footer section */
+footer {
+   background-color: #FFFFFF;
+   width: 1440px;
+    height: 430px;
+    padding: 50px 0;
+    /* border-radius: 10px; */
+
+    }
+    .footer-logo {
+        font-family: 'Inter', sans-serif;
+        font-size: 100px;
+        font-weight: bolder;
+        color: #4E47FF;
+        text-align: center; 
+        margin: 50px 0;}
+.footer-logo a {
+    text-decoration: none;
+    color: #4E47FF;
+}
+.footer-logo a span {
+    color: #d6aa27;
+}
+.footer-text {
+    align-items: center;
+    /* font-family: "Raleway", sans-serif; */
+    font-size: 20px;
+    font-weight: 400;
+    color: #8987A1;
+    text-align: center;
+}
+
+.footer-links {
+    display: flex;
+    gap : 50px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    padding: 20px 0;
+    flex-wrap: wrap;
+}
+.footer-links a {
+    /* font-family: "Raleway", sans-serif; */
+    font-size: 20px;
+    font-weight: 400;
+    color: #8987A1;
+    text-decoration: none;
+}
