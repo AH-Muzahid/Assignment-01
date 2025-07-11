@@ -9,18 +9,20 @@
     font-weight: bold;
     cursor: pointer;
     margin-top: 10px;
-    transition: background-color 0.3s ease;
+    /* transition: background-color 0.3s ease; */
 }
 
 .btn:hover {
     background-color: #d6aa27;
-    animation: 2s ease-in-out 0.5s;
+    animation: 2s ease-in-out 0.3s;
+    transform: scale(1.05);
 }
 body {
     margin: 0 auto;
     font-family: 'Raleway', sans-serif;
     background-color: #F5F8FF;
     max-width: 1440px;
+    display: flex 1;
 }
 
 /* Style for banner */
@@ -54,7 +56,7 @@ header {
 
 .hero-title {
     font-family: "Raleway", sans-serif;
-    font-size: 48px;
+    font-size: 65px;
     font-weight: 700;
     margin-bottom: 20px;
     margin-top: 158px;
@@ -215,7 +217,6 @@ input[type="email"],
 textarea  {
     background-color: #FFFFFF;
  width: 500px;
-    height: 50px;
     border: 1px solid #d6ddff83;
     border-radius: 10px;
     font-size:16px;
@@ -223,7 +224,7 @@ textarea  {
     padding: 20px;
 }
 textarea {
-    height: 150px;
+    height: 100px;
     resize: none;
 }
 .contact-form p{
@@ -233,13 +234,13 @@ textarea {
 
     .submit-btn {
     width: 100%;
-    height: 70px;
+    height: 60px;
     }
     /* footer section */
 footer {
    background-color: #FFFFFF;
    width: 1440px;
-    height: 430px;
+    height: 400px;
     padding: 50px 0;
     /* border-radius: 10px; */
 
